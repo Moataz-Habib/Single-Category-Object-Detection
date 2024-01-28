@@ -15,6 +15,7 @@ This repository hosts our Single-Category Object Detection project, which explor
 ## Dataset Structure
 The dataset is partitioned into training, validation, and test subsets with the following directory layout:
 
+
 dataset/
 ├── train/
 │ ├── images/
@@ -59,13 +60,4 @@ This section showcases the precision of object detection across all the models w
 
 ## Conclusion
 Modifications to the detect layer in the YOLO V8 Nano architecture demonstrated significant improvements in detection precision. Detailed analysis and code can be found in the [Single Category.ipynb](https://github.com/FrozenWanderer/Single-Category-Object-Detection/blob/main/Single%20Category.ipynb) notebook.
-
-## Acknowledgements
-We extend our heartfelt gratitude to all individuals who contributed to this research and helped facilitate the project's success.
-
----
-
-**Note:** Ensure you upload the Precision-Recall curve and precision images to the specified `images/` directory in your GitHub repository and update the image paths in the tables accordingly. The provided mAP scores and file paths are placeholders and should be updated with your actual data.
-
-
 
