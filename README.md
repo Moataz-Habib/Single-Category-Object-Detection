@@ -16,6 +16,9 @@ This repository hosts our Single-Category Object Detection project, which explor
 The dataset is partitioned into training, validation, and test subsets with the following directory layout:
 
 
+<details>
+<summary>Dataset directory structure</summary>
+<p>
 dataset/
 ├── train/
 │ ├── images/
@@ -26,6 +29,11 @@ dataset/
 └── test/
 ├── images/
 └── labels/
+</p>
+</details>
+
+
+
 
 
 ## Model Configurations
