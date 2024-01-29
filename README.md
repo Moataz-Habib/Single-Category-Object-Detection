@@ -21,8 +21,8 @@ The data consists of video frames, with preprocessing involving normalization, r
 
 The data is divided into 60% training, 20% validation, and 20% testing sets. The directory structure is as follows:
 
-dataset/
-├── train/
+dataset/.
+├── train/.
 │ ├── images/
 │ └── labels/
 ├── val/
