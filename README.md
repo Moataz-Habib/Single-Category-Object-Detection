@@ -35,7 +35,13 @@ dataset/
 
 ```
 
-Training Process: Adjustments are made to the image and label formats to comply with YOLO requirements, followed by training over 100 epochs.
+### Training Configuration
+
+The training process involves configuring the model and dataset paths, as demonstrated in the image below. The `config.yaml` file specifies the dataset paths, and the `yolov8n.yaml` file defines the model's architecture. Adjustments to these files can be made to comply with YOLO requirements or to experiment with different model configurations during ablation studies.
+
+![Training Configuration](images/img6.png)
+
+Training is conducted over 100 epochs to ensure adequate model learning and performance optimization.
 
 ## Model Configurations
 Our ablation study spans across multiple YOLO V8 configurations to pinpoint the optimal model structure:
