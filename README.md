@@ -83,23 +83,23 @@ The table below displays the prediction results obtained from each model configu
 </tr>
 <tr>
 <td>Baseline YOLO V8 Nano</td>
-<td><img src="images/img6.png" alt="Prediction Result for Baseline YOLO V8 Nano" width="300" /></td>
+<td><img src="images/img6.jpg" alt="Prediction Result for Baseline YOLO V8 Nano" width="300" /></td>
 </tr>
 <tr>
 <td>Adding Layers</td>
-<td><img src="images/img7.png" alt="Prediction Result for Adding Layers" width="300" /></td>
+<td><img src="images/img7.jpg" alt="Prediction Result for Adding Layers" width="300" /></td>
 </tr>
 <tr>
 <td>Batch Normalization</td>
-<td><img src="images/img8.png" alt="Prediction Result for Batch Normalization" width="300" /></td>
+<td><img src="images/img8.jpg" alt="Prediction Result for Batch Normalization" width="300" /></td>
 </tr>
 <tr>
 <td>Modified Detect Layer</td>
-<td><img src="images/img9.png" alt="Prediction Result for Modified Detect Layer" width="300" /></td>
+<td><img src="images/img9.jpg" alt="Prediction Result for Modified Detect Layer" width="300" /></td>
 </tr>
 <tr>
 <td>YOLO V8 S</td>
-<td><img src="images/img10.png" alt="Prediction Result for YOLO V8 S" width="300" /></td>
+<td><img src="images/img10.jpg" alt="Prediction Result for YOLO V8 S" width="300" /></td>
 </tr>
 </table>
 
