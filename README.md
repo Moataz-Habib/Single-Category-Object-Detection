@@ -87,6 +87,12 @@ The visual results of the models' prediction capabilities can be reviewed in the
 
 
 ## Prediction Results
+
+Before delving into the specific outcomes, it's important to understand how the models are evaluated post-training. The snippet below illustrates the process of loading the trained model with the best performing weights for predictions:
+
+![Load Model with Best Weights](images/img7.png)
+
+
 To assess the practical applicability of the models, their prediction results were evaluated. The following are the outcomes showcasing the detection capabilities of each configuration:
 
 <table>
