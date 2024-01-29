@@ -73,17 +73,36 @@ The following table shows the Precision-Recall curves obtained from each model c
 
 
 
+## Prediction Results
+The table below displays the prediction results obtained from each model configuration:
 
-## Precision Results
-This section showcases the precision of object detection across all the models we tested:
+<table>
+<tr>
+<th>Configuration</th>
+<th>Prediction Result</th>
+</tr>
+<tr>
+<td>Baseline YOLO V8 Nano</td>
+<td><img src="images/img6.png" alt="Prediction Result for Baseline YOLO V8 Nano" width="300" /></td>
+</tr>
+<tr>
+<td>Adding Layers</td>
+<td><img src="images/img7.png" alt="Prediction Result for Adding Layers" width="300" /></td>
+</tr>
+<tr>
+<td>Batch Normalization</td>
+<td><img src="images/img8.png" alt="Prediction Result for Batch Normalization" width="300" /></td>
+</tr>
+<tr>
+<td>Modified Detect Layer</td>
+<td><img src="images/img9.png" alt="Prediction Result for Modified Detect Layer" width="300" /></td>
+</tr>
+<tr>
+<td>YOLO V8 S</td>
+<td><img src="images/img10.png" alt="Prediction Result for YOLO V8 S" width="300" /></td>
+</tr>
+</table>
 
-| Configuration | Precision Image |
-|---------------|-----------------|
-| Baseline YOLO V8 Nano | ![Precision Baseline](images/Precision_baseline.png) |
-| Adding Layers | ![Precision Adding Layers](images/Precision_adding_layers.png) |
-| Batch Normalization | ![Precision Batch Normalization](images/Precision_batch_norm.png) |
-| Modified Detect Layer | ![Precision Modified Detect Layer](images/Precision_detect_layer.png) |
-| YOLO V8 S | ![Precision YOLO V8 S](images/Precision_yolov8s.png) |
 
 ## Conclusion
 Modifications to the detect layer in the YOLO V8 Nano architecture demonstrated significant improvements in detection precision. Detailed analysis and code can be found in the [Single Category.ipynb](https://github.com/FrozenWanderer/Single-Category-Object-Detection/blob/main/Single%20Category.ipynb) notebook.
