@@ -32,6 +32,9 @@ dataset/
 ├── images/
 └── labels/
 
+
+
+
 Training Process: Adjustments are made to the image and label formats to comply with YOLO requirements, followed by training over 100 epochs.
 
 ## Model Configurations
