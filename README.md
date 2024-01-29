@@ -55,13 +55,14 @@ The following table shows the Precision-Recall curves obtained from each model c
 </tr>
 <tr>
 <td>Precision-Recall Curve</td>
-<td><img src="images/img1.png" alt="Baseline YOLO V8 Nano" /></td>
-<td><img src="images/img2.png" alt="Adding Layers" /></td>
-<td><img src="images/img3.png" alt="Batch Normalization" /></td>
-<td><img src="images/img4.png" alt="Modified Detect Layer" /></td>
-<td><img src="images/img5.png" alt="YOLO V8 S" /></td>
+<td><img src="images/img1.png" alt="Baseline YOLO V8 Nano" width="200" /></td>
+<td><img src="images/img2.png" alt="Adding Layers" width="200" /></td>
+<td><img src="images/img3.png" alt="Batch Normalization" width="200" /></td>
+<td><img src="images/img4.png" alt="Modified Detect Layer" width="200" /></td>
+<td><img src="images/img5.png" alt="YOLO V8 S" width="200" /></td>
 </tr>
 </table>
+
 
 
 ## Precision Results
