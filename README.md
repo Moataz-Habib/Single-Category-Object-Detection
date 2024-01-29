@@ -47,19 +47,27 @@ The following table shows the Precision-Recall curves obtained from each model c
 <table>
 <tr>
 <th>Configuration</th>
-<th>Baseline YOLO V8 Nano</th>
-<th>Adding Layers</th>
-<th>Batch Normalization</th>
-<th>Modified Detect Layer</th>
-<th>YOLO V8 S</th>
+<th>Precision-Recall Curve</th>
 </tr>
 <tr>
-<td>Precision-Recall Curve</td>
-<td><img src="images/img1.png" alt="Baseline YOLO V8 Nano" height="250" /></td>
-<td><img src="images/img2.png" alt="Adding Layers" height="250" /></td>
-<td><img src="images/img3.png" alt="Batch Normalization" height="250" /></td>
-<td><img src="images/img4.png" alt="Modified Detect Layer" height="250" /></td>
-<td><img src="images/img5.png" alt="YOLO V8 S" height="250" /></td>
+<td>Baseline YOLO V8 Nano</td>
+<td><img src="images/img1.png" alt="Baseline YOLO V8 Nano" width="300" /></td>
+</tr>
+<tr>
+<td>Adding Layers</td>
+<td><img src="images/img2.png" alt="Adding Layers" width="300" /></td>
+</tr>
+<tr>
+<td>Batch Normalization</td>
+<td><img src="images/img3.png" alt="Batch Normalization" width="300" /></td>
+</tr>
+<tr>
+<td>Modified Detect Layer</td>
+<td><img src="images/img4.png" alt="Modified Detect Layer" width="300" /></td>
+</tr>
+<tr>
+<td>YOLO V8 S</td>
+<td><img src="images/img5.png" alt="YOLO V8 S" width="300" /></td>
 </tr>
 </table>
 
