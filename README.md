@@ -1,16 +1,17 @@
 # Single-Category Object Detection 
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Dataset Structure](#dataset-structure)
-3. [Model Configurations](#model-configurations)
-4. [Ablation Study Results](#ablation-study-results)
-5. [Precision Results](#precision-results)
-6. [Conclusion](#conclusion)
-
+- [Introduction](#introduction)
+- [Data Processing](#data-processing)
+- [Model Training and Testing](#model-training-and-testing)
+- [Model Configurations](#model-configurations)
+- [Ablation Study Results](#ablation-study-results)
+- [Prediction Results](#prediction-results)
+- [Conclusion](#conclusion)
 
 ## Introduction
-This repository hosts our Single-Category Object Detection project, which explores various configurations of the YOLO V8 model, including Nano and S versions, to optimize detection performance for a single category.
+
+This project aims to enhance Single-Category Object Detection by experimenting with various configurations of the YOLO V8 model. We focus on optimizing model performance, particularly on one category, to assess the trade-offs between accuracy and computational efficiency.
 
 ## Data Processing: 
 
@@ -18,7 +19,7 @@ The data consists of video frames, with preprocessing involving normalization, r
 
 ## Model Training and Testing
 
-The data is divided into 60% training, 20% validation, and 20% testing sets. The dataset is structured as follows:
+The data is divided into 60% training, 20% validation, and 20% testing sets. The directory structure is as follows:
 
 dataset/
 ├── train/
@@ -34,15 +35,17 @@ dataset/
 Training Process: Adjustments are made to the image and label formats to comply with YOLO requirements, followed by training over 100 epochs.
 
 ## Model Configurations
-The project evaluates multiple YOLO V8 architectures:
+Our ablation study spans across multiple YOLO V8 configurations to pinpoint the optimal model structure:
+
 - Baseline YOLO V8 Nano
-- YOLO V8 Nano with additional layers
-- YOLO V8 Nano with batch normalization and more repeats
-- YOLO V8 Nano with an altered detect layer
-- YOLO V8 S for comparative purposes
+- Enhanced YOLO V8 Nano with added layers
+- YOLO V8 Nano with batch normalization and increased repeats
+- YOLO V8 Nano with a modified detect layer
+- Comparative analysis using YOLO V8 S
 
 ## Ablation Study Results
-The following table shows the Precision-Recall curves obtained from each model configuration:
+
+Each configuration's performance was evaluated using Precision-Recall curves. The visual comparison underscores the impact of each modification on the model's precision.
 
 <table>
 <tr>
@@ -71,10 +74,11 @@ The following table shows the Precision-Recall curves obtained from each model c
 </tr>
 </table>
 
+For a visual representation of the prediction capabilities and the comparative performance across different model configurations, please see the [`runs` folder](https://github.com/Moataz-Habib/Single-Category-Object-Detection/tree/main/runs) and the detailed prediction results showcased in the repository.
 
 
 ## Prediction Results
-The table below displays the prediction results obtained from each model configuration:
+To assess the practical applicability of the models, their prediction results were evaluated. The following are the outcomes showcasing the detection capabilities of each configuration:
 
 <table>
 <tr>
@@ -105,5 +109,15 @@ The table below displays the prediction results obtained from each model configu
 
 
 ## Conclusion
-Modifications to the detect layer in the YOLO V8 Nano architecture demonstrated significant improvements in detection precision. Detailed analysis and code can be found in the [Single Category.ipynb](https://github.com/FrozenWanderer/Single-Category-Object-Detection/blob/main/Single%20Category.ipynb) notebook.
+
+The ablation study conducted on various configurations of the YOLO V8 model demonstrated that strategic modifications could significantly enhance object detection performance. While the baseline YOLO V8 Nano and the variations with added layers and batch normalization maintained high precision-recall scores, the YOLO V8 S configuration stood out with the highest mAP of 0.977 and exhibited superior detection precision in practical scenarios.
+
+These findings suggest that the YOLO V8 S model, with its advanced architecture, offers a substantial improvement in detection accuracy, making it an excellent candidate for real-world applications where precision is paramount. The prediction results, particularly for the YOLO V8 S model, confirm its robustness and reliability in detecting objects with high confidence.
+
+For a deeper dive into the methodology and the code that powered these experiments, the [Single Category Object Detection notebook](https://github.com/Moataz-Habib/Single-Category-Object-Detection/blob/main/Single%20Category%20Object%20Detection.ipynb) is available for review. The comprehensive analysis contained within illustrates the potential of YOLO V8 modifications to push the boundaries of object detection technology, especially in single-category detection tasks.
+
+The project's success encourages future explorations to further optimize these models for speed and accuracy, potentially extending their application to more complex multi-category detection scenarios and deployment on edge devices with resource constraints.
+
+For a visual representation of the prediction capabilities and the comparative performance across different model configurations, please see the [`runs` folder](https://github.com/Moataz-Habib/Single-Category-Object-Detection/tree/main/runs) and the detailed prediction results showcased in the repository.
+
 
