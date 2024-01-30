@@ -1,0 +1,8 @@
+
+path: /content/originalpaths # dataset root dir
+train: /content/originalpaths/images/train #train images (relative to 'path')
+val: /content/originalpaths/images/val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: shoe
